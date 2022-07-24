@@ -1,0 +1,37 @@
+{
+  "name": "fontmin",
+  "version": "1.0.0",
+  "description": "happy fontmin",
+  "main": "main.js",
+  "build": {
+    "files": "!view",
+    "appId": "noid",
+    "mac": {
+      "category": "tool",
+      "icon": "icon.png",
+      "target": [
+        "dmg"
+      ]
+    }
+  },
+  "scripts": {
+    "start": "electron . & cd view && yarn start",
+    "dev": "electron .",
+    "build": "cd view && yarn build && cd ../ && electron-builder"
+  },
+  "keywords": [
+    "Electron"
+  ],
+  "author": "Lynan",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^15.1.2",
+    "electron-builder": "^22.13.1"
+  },
+  "dependencies": {
+    "@rollup/plugin-image": "^2.1.1",
+    "cross-fetch": "^3.1.4",
+    "fontmin": "^0.9.9",
+    "form-data": "^4.0.0"
+  }
+}
