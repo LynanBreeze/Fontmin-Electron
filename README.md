@@ -5,8 +5,8 @@
 ![alt 预览](https://article-assets.lynan.cn/fontmin.png "预览")
 
 例如
-使用字符集`1234567890`对1.6MB字体进行精简，得到生成精简完成的字体文件仅4KB。
-![alt 预览](https://article-assets.lynan.cn/fontmin.png "预览")
+使用字符集`1234567890`对 171KB 字体进行精简，得到生成精简完成的字体文件仅 26 KB。
+![alt 预览](https://article-assets.lynan.cn/fontmin-result.jpg "预览")
 
 
 ## Example
