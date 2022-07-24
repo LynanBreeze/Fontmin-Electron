@@ -47,3 +47,7 @@ Clone this repository and run `yarn && yarn start`
 ## Build
 
 Run `yarn build`
+
+## Thanks to 
+[fontmin](https://github.com/ecomfe/fontmin)
+
